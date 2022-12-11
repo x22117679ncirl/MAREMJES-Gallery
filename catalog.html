@@ -1,0 +1,534 @@
+<!-- Jesus Garcia
+Group Project -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>gallery</title>
+    <link rel="stylesheet" href="css/jesus-style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/b6ca5087fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body onload="date()">
+    <div id="date-bar"></div>
+    <!-- START Navbar -->
+    <nav>
+        <!-- Navbar list logo & list item -->
+        <ul class="menu">
+            <li class="logo"><img class="logo-img" src="/img/logo-sml.png" alt="maremjes-gallery-logo"> </li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="catalog.html">Catalog</a></li>
+            <li class="item"><a href="faq.html">FAQ</a></li>
+            <li class="item"><a href="contact.html">Contact</a></li>
+            <li class="item button"><a href="#">Membership</a></li>
+            <li class="item button secondary"><a href="#">Buy Tickets</a></li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <div id="top-img">
+            <h3>Expo until 15 Dec</h3>
+            <img src="./img/gallery-view.gif" alt="gallery hall">
+        </div>
+        <div class="gal-top">
+            <hr>
+            <i class="fa-solid fa-pen-nib"></i>
+            <p>
+                The expo "Omnia Tempus Collectio" is composed by paintings temporary on loan from the famous collectors
+                Petrizzelli and E.Dolan
+
+            </p>
+
+        </div>
+        <div class="card">
+            <img src="./img/download.jpeg" class="img-gal" alt="night landscape painting">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    The night
+                </h4>
+                <p class="card-desc">
+                    Beautiful paint by Van Gogh
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/elephants.jpg" class="img-gal" alt="fantasy elephants with music instrument heads">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Elephantsophons
+                </h4>
+                <p class="card-desc">
+                    Van Gogh
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/village.jpg" class="img-gal" alt="painting of a village in vivid colours">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Le Village
+                </h4>
+                <p class="card-desc">
+                    Vincent Clarel
+                </p>
+            </div>
+        </div>
+        <div id="but-box">
+            <button id="but-gal-sec" class="but-gal">view more...</button>
+        </div>
+        <div class="card second">
+            <img src="./img/birds.jpeg" class="img-gal" alt="landfield with birds">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    The birds on the field
+                </h4>
+                <p class="card-desc">
+                    V.C.Clorel
+                </p>
+            </div>
+        </div>
+        <div class="card second">
+            <img src="./img/boat.jpg" class="img-gal" alt="boat in the port during sunrise">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Sunrise on boat
+                </h4>
+                <p class="card-desc">
+                    Van Gogh
+                </p>
+            </div>
+        </div>
+        <div class="card second">
+            <img src="./img/eye.jpg" class="img-gal" alt="closeup of a colourful eye">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Les yeux
+                </h4>
+                <p class="card-desc">
+                    Clarence Von der Leer
+                </p>
+            </div>
+        </div>
+        <div id="but-box">
+            <button id="but-gal-third" class="but-gal second">view more...</button>
+        </div>
+        <div class="card third">
+            <img src="./img/jesus.jpg" class="img-gal" alt="colourful portrait of Jesus">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Summerlove Jesus
+                </h4>
+                <p class="card-desc">
+                    Anthony Mekt
+                </p>
+            </div>
+        </div>
+        <div class="card third">
+            <img src="./img/man.png" class="img-gal" alt="man on suit with water coming out his pockets">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Broke man
+                </h4>
+                <p class="card-desc">
+                    Daniel Perkins
+                </p>
+            </div>
+        </div>
+        <div class="card third">
+            <img src="./img/time.jpeg" class="img-gal" alt="melting pockets watches in a landscape">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Persistence of memory
+                </h4>
+                <p class="card-desc">
+                    Salvador Dali
+                </p>
+            </div>
+        </div>
+        <div id="but-box">
+            <button id="but-gal-fourth" class="but-gal third">view more...</button>
+        </div>
+        <div class="card fourth">
+            <img src="./img/guy.jpg" class="img-gal" alt="painting of a man">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    The classic man
+                </h4>
+                <p class="card-desc">
+                    Anton Wurtz
+                </p>
+            </div>
+        </div>
+        <div class="card fourth">
+            <img src="./img/woman.jpeg" class="img-gal" alt="portrait of a young woman">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Ana de Armas
+                </h4>
+                <p class="card-desc">
+                    Angela Miterant
+                </p>
+            </div>
+        </div>
+        <div class="card fourth">
+            <img src="./img/xx.jpg" class="img-gal" alt="abstract painting">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Les choses
+                </h4>
+                <p class="card-desc">
+                    Aurelien Belerine
+                </p>
+            </div>
+
+        </div>
+        <div id="but-box">
+            <button id="but-gal-fifth" class="but-gal fourth">view more...</button>
+        </div>
+        <div class="card fifth">
+            <img src="./img/colo.jpeg" class="img-gal" alt="colourful abstract painting">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Nightmare
+                </h4>
+                <p class="card-desc">
+                    Kandinsky
+                </p>
+            </div>
+        </div>
+        <div class="card fifth">
+            <img src="./img/zz.jpg" class="img-gal" alt="girls biting bitcoin">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Bitecoin
+                </h4>
+                <p class="card-desc">
+                    Della Piressa
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="card fifth">
+            <img src="./img/download.jpeg" class="img-gal" alt="night blue themed paiting">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    The night
+                </h4>
+                <p class="card-desc">
+                    Beautiful paint by Van Gogh
+                </p>
+            </div>
+        </div>
+        <div id="but-box">
+            <button id="but-gal-sixth" class="but-gal fifth">view more...</button>
+        </div>
+        <div class="card sixth">
+            <img src="./img/dublin.png" class="img-gal" alt="Dublins Temple bar">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Dublin night
+                </h4>
+                <p class="card-desc">
+                    Ernest O'Connell
+                </p>
+            </div>
+        </div>
+        <div class="card sixth">
+            <img src="./img/village.jpg" class="img-gal" alt="painting of a Mexican Village">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Le village deux
+                </h4>
+                <p class="card-desc">
+                    Colorado Antoine
+                </p>
+            </div>
+        </div>
+        <div class="card sixth">
+            <img src="./img/birds.jpeg" class="img-gal" alt="birds flying over a farm">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    The birds field
+                </h4>
+                <p class="card-desc">
+                    James Saren
+                </p>
+            </div>
+        </div>
+        <div id="but-box">
+            <button id="but-gal-seventh" class="but-gal sixth">view more...</button>
+        </div>
+        <div class="card seventh">
+            <img src="./img/boat.jpg" class="img-gal" alt="boat contemplating the sunrise">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Sunrise fisherman
+                </h4>
+                <p class="card-desc">
+                    Sarah Murray
+                </p>
+            </div>
+        </div>
+        <div class="card seventh">
+            <img src="./img/eye.jpg" class="img-gal" alt="bright colourful eye painting">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    The eye
+                </h4>
+                <p class="card-desc">
+                    Danielos Orftenski
+                </p>
+            </div>
+        </div>
+        <div class="card seventh">
+            <img src="./img/dublin-bridge.jpg" class="img-gal" alt="paiting of Dublins famous bridge">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Pont Dublin
+                </h4>
+                <p class="card-desc">
+                    Aishling Grogan
+                </p>
+            </div>
+        </div>
+        <div id="but-box">
+            <button id="but-gal-eighth" class="but-gal seventh">view more...</button>
+        </div>
+        <div class="card eighth">
+            <img src="./img/man.png" class="img-gal" alt="painting of a man expulsing water from his pockets">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Sinking man
+                </h4>
+                <p class="card-desc">
+                    Theodora Lehman
+                </p>
+            </div>
+        </div>
+        <div class="card eighth">
+            <img src="./img/time.jpeg" class="img-gal" class="watches melting">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Persistencia de la memoria
+                </h4>
+                <p class="card-desc">
+                    Dali
+                </p>
+            </div>
+        </div>
+        <div class="card eighth">
+            <img src="./img/village.jpg" class="img-gal" alt="bright and sunny village">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    The colourful village
+                </h4>
+                <p class="card-desc">
+                    James Mcabbe
+                </p>
+            </div>
+        </div>
+        <div id="but-box">
+            <button id="but-gal-ninth" class="but-gal eighth">view more...</button>
+        </div>
+        <div class="card ninth">
+            <img src="./img/woman.jpeg" class="img-gal" alt="portrait of Ana de Armas">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Anna of Arms
+                </h4>
+                <p class="card-desc">
+                    Fidel Cascub
+                </p>
+            </div>
+        </div>
+        <div class="card ninth">
+            <img src="./img/download.jpeg" class="img-gal" alt="paiting representing the night">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    The night
+                </h4>
+                <p class="card-desc">
+                    V.Van Gogh
+                </p>
+            </div>
+        </div>
+        <div class="card ninth">
+            <img src="./img/pain.jpg" class="img-gal" alt="abstract painting represensing pain">
+            <div class="card-info">
+                <h5 class="card-date">
+                    27 October - 28 November
+                </h5>
+                <h4 class="card-title">
+                    Phenix raises
+                </h4>
+                <p class="card-desc">
+                    Anabel Smolonova
+                </p>
+            </div>
+        </div>
+
+        <div class="popup-img">
+            <span>&times;</span>
+            <img src="./img/eye.jpg" alt="">
+        </div>
+
+    </div>
+    </div>
+    <!-- START Footer -->
+    <footer>
+        <!-- Footer addresses -->
+        <div class="footer-main">
+            <div class="footer-item">
+                <h2 class="footer-title">London</h2>
+                <p>54 Liverpool Street<br>
+                    London W1S 3LZ</p>
+                <p>T +44 (0)20 1234 5678 <br>
+                    <a href="mailto:london@maremjes.com">london@maremjes.com</a>
+                </p>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-title">Dublin</h2>
+                <p>25 Cork Street<br>
+                    Dublin D01 E897</p>
+                <p>T +353 (0)1 123 4567 <br>
+                    <a href="mailto:dublin@maremjes.com">dublin@maremjes.com</a>
+                </p>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-title maremjes-info">MAREMJES Gallery</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Membership</a></li>
+                    <li><a href="#">Buy Tickets</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h2 class="footer-title">Future Exhibitions</h2>
+                <p>Receive 2023 exhibitions' brouchure.</p>
+                <form id="form">
+                    <div class="inputBox">
+                        <input id="email" type="text" placeholder="Email address" onkeyup="emailVerification()">
+                        <input id="submit" type="submit" value="Download" onclick="submitNewsletter()">
+                        <div><i class="fa-solid fa-circle indicator"></i><span id="checker"></span></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer social -->
+        <div class="footer-social">
+            <ul class="footer-social-list">
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- Footer legal -->
+        <div class="footer-legal">
+            <ul class="footer-legal-list">
+                <li><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li>&copy; 2022 MAREMJES Gallery </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- END Footer -->
+
+
+
+    </div>
+    <script src="./js/maremjes.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

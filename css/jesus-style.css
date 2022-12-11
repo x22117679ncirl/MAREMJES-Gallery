@@ -1,0 +1,405 @@
+/*
+Jesus Garcia
+group project
+*/
+
+
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+
+
+
+/*catalog*/
+
+#container {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 10% auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#top-img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+
+#top-img h3 {
+    color: rgb(243, 247, 243);
+    font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.7em;
+    position: absolute;
+    width: 30%;
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+    line-height: 50px;
+    padding-left: 5px;
+}
+
+#top-img img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 30%;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.img-gal {
+    width: 100%;
+    height: auto;
+}
+
+.card h5 {
+    color: grey;
+    font-size: 1.2em;
+}
+
+.card p {
+    color: rgb(163, 162, 162);
+    font-size: 1em;
+}
+
+#but-box {
+    background-color: rgb(235, 231, 231);
+    width: 100%;
+    opacity: 0.4;
+
+}
+
+.but-gal {
+    height: 40px;
+    width: 100px;
+    display: block;
+    margin: 20px 45%;
+    border-radius: 8px;
+    border-color: rgba(246, 219, 219, 1);
+}
+
+.second {
+    display: none;
+
+}
+
+.third {
+    display: none;
+}
+
+.fourth {
+    display: none;
+}
+
+.fifth {
+    display: none;
+}
+
+.sixth {
+    display: none;
+}
+
+.seventh {
+    display: none;
+}
+
+.eighth {
+    display: none;
+}
+
+.ninth {
+    display: none;
+}
+
+#footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+    margin-bottom: 0px;
+
+}
+
+#footer p {
+    color: rgb(255, 255, 255);
+}
+
+#footer-div {
+    background-color: (235, 231, 231);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 1;
+}
+
+#social-logos {
+    height: 30px;
+    width: auto;
+}
+
+#social-logos img {
+    height: 100%;
+    width: auto;
+}
+
+#email-cont {
+    height: 30px;
+    border-radius: 6px;
+    width: 250px;
+}
+
+
+.popup-img {
+    position: fixed;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    display: none;
+}
+
+.popup-img img {
+    border: 5px solid white;
+    width: 50%;
+    height: auto;
+
+
+
+}
+
+.popup-img span {
+    top: 1%;
+    font-size: 40px;
+    position: absolute;
+    right: 50px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+
+}
+
+.gal-top {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: baseline;
+    width: 95%;
+    margin: 40px auto;
+
+}
+
+.gal-top p {
+    font-style: italic;
+}
+
+.gal-top i {
+    margin-right: 5px;
+}
+
+.gal-top hr {
+    width: 90%;
+}
+
+#map-cont {
+    width: 50%;
+    height: 370px;
+
+}
+
+.form-cont {
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-cont input {
+    width: 60%;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.form-cont textarea {
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 940px) {
+
+    #container {
+        width: 100%;
+    }
+
+    .card {
+        width: 95%;
+        background-color: rgb(0, 0, 0);
+    }
+
+    #but-box {
+        opacity: 0.95;
+    }
+
+    .card-title {
+        color: rgb(210, 210, 210);
+    }
+
+
+
+    #container {
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+
+    .gal-top {
+        color: rgb(0, 0, 0);
+        display: flex;
+        align-items: baseline;
+        color: rgb(255, 255, 255);
+        width: 70%;
+
+    }
+
+    #map-cont {
+        width: 100%;
+    }
+
+    .gal-top p {
+        font-style: italic;
+    }
+
+    /*contactus*/
+    .box-cont {
+        flex-direction: column;
+        padding-bottom: 100px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .title-cont {
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+
+    .form-cont {
+        margin-top: 50px;
+        width: 100%;
+    }
+
+
+
+    .form-cont input,
+    textarea {
+        width: 51%;
+        margin-left: 15%;
+    }
+
+    .form-cont h3 {
+        margin-left: 15%;
+    }
+
+
+}
+
+
+
+
+
+/* contact us styles*/
+
+.container-cont {
+
+
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+
+
+
+}
+
+.title-cont {
+    width: 15%;
+    margin-left: 150px;
+    padding-top: 30px;
+}
+
+.box-cont {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% auto auto;
+    width: 80%;
+    padding-bottom: 150px;
+
+}
+
+
+
+
+
+#sub-cont {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    border: solid white 2px;
+    border-radius: 7px;
+    width: 53%;
+    height: 45px;
+}
+
+#sub-cont:hover {
+    font-size: 1em;
+    background-color: #dcb46f;
+
+}
+
+
+@media screen and (max-width: 450px) {
+    #top-img h3 {
+        width: 50%;
+        font-size: 0.6em;
+    }
+
+    #but-box {
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+
+    #but-box .but-gal {
+        width: 100%;
+        margin: auto;
+    }
+
+    .title-cont {
+        width: 50%;
+        font-size: 0.6em;
+        margin: auto;
+    }
+
+
+    .box-cont {
+        width: 100%;
+        text-align: center;
+    }
+
+    #form-cont input,
+    textarea {
+        width: 90%;
+        margin-left: auto;
+
+    }
+}
